@@ -1,5 +1,7 @@
 ##Every exception is a class 
 # ZeroDivisionError -->> PVM take cares
 print("Hello")
-print(10/0)
-print('Hi') ## can not execute because of ZeroExceptionError
+try:
+  print(10/0)
+except ZeroDivisionError:
+  print('Hi') ## can not execute because of ZeroExceptionError
