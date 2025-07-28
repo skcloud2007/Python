@@ -25,4 +25,4 @@ except:
 
 # 2. **Finally block vs Destructor**
 Finally block meant for maintaining cleanup code Also Desctructor meant for maintaining cleanup code. Seems both are same Then Where is the difference:
-``` finally always relates with try block while for destructor always used to do cleanup for object related, whatever resource allocated inside destructor, whill be executed before destroying Object.
+``` finally always relates with try block while for destructor always used to do cleanup for object related, whatever resource allocated inside destructor, whill be executed before destroying Object.```
