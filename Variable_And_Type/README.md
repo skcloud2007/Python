@@ -39,3 +39,69 @@ Returns the lowest index in the string where substring "sub" is found within the
 IN: "school".find("o")
 OUT: 3
 ```
+### str.isalpha()
+Return true if all characters in the string are alphabet and there is atleast one character.
+```
+IN: "Python".isalpha()
+OUT: True
+IN: "Python3".isalpha()
+OUT: False
+```
+### str.isdigit()
+Returns   true if all characters in the string are digits and there is at least one   character.
+```
+IN: "123".isdigit()
+OUT: True
+IN: "123a".isdigit()
+OUT: False
+```
+### str.upper()
+
+Returns a copy of the   string with all the cased characters converted to uppercase.
+
+```
+IN: “python”.upper()
+OUT: “PYTHON”
+```
+
+
+### str.lower()
+Returns a copy of the string with all the cased characters converted to lowercase.
+
+```
+IN: “PYTHON”.lower()
+OUT: “python”
+```
+### str.split([sep],[maxsplit])
+
+Returns a list of the   words in the string, using sep as the delimiter string.
+
+IN:          “String,Methods”.split(“,”)
+
+OUT:      [“String”, “Methods”]
+
+
+
+str.strip([chars])
+
+Returns   a copy of the string with the leading and trailing characters removed.
+
+IN:          “     python   “.strip()
+
+OUT:      “python”
+
+
+
+Str.title()
+
+Return a titlecased   version of the string where words start with an uppercase character and the   remaining characters are lowercase.
+
+IN:          “python is awesome”.title()
+
+OUT:      “Python Is Awesome”
+
+
+
+For a complete list of String   Methods, visit: https://docs.python.org/release/2.5.2/lib/string-methods.html   
+
+Resources for this lecture
