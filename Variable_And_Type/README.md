@@ -17,3 +17,13 @@ Variable names are case sensitive. Ie. “x” and “X” would be considered t
 ```
 Avoid using lowercase “l” and uppercase “I”, as well as uppercase “O”. These characters can cause confusion, because a lowercase “l” looks like an uppercase “I” and an uppercase “O” might look like an “0”.
 ```
+
+## string Methods Reference
+### str.capitalize()
+```
+Returns a copy of the string with its first character capitalized and the rest   lowercased.
+```
+```
+Input: "python is awesome".capitalize()
+Output: "Python is awesome"
+```
