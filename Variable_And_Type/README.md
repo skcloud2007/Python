@@ -20,10 +20,22 @@ Avoid using lowercase “l” and uppercase “I”, as well as uppercase “O�
 
 ## string Methods Reference
 ### str.capitalize()
-```
+
 Returns a copy of the string with its first character capitalized and the rest   lowercased.
-```
+
 ```
 Input: "python is awesome".capitalize()
 Output: "Python is awesome"
+```
+### str.count(sub,[start],[end])
+Returns the number of non-overlapping occurrences of substring
+```
+IN: "school".count("o")
+OUT: 2
+```
+### str.find(sub,[start],[end])
+Returns the lowest index in the string where substring "sub" is found within the string
+```
+IN: "school".find("o")
+OUT: 3
 ```
